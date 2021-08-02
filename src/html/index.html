@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-
-    @@include('links/_head.html')
-    <title>Document</title>
+<head> @@include('links/_head.html')
+    <title>SEA ADVENTURES</title>
 </head>
 
 <body>
-    @@include('components/_header.html')
-    <main>
-        @@include(components/_)
-    </main>
-    @@include('links/_scripts.html')
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"target="blank"><img src="img/logo.png" alt="logo"></a>
+                </div>
+                <div class="nav-wrap" flex>
+                    <nav>
+                        <div class="menu">
+                            <ul flex>
+                                <li> <a href="index.html">ГОЛОВНА</a>
+                                </li>
+                                <li> <a href="about.html">ПОСЛУГИ</a>
+                                </li>
+                                <li> <a href="">ПРО КОМПАНІЮ</a>
+                                </li>
+                                <li> <a href="">АКЦІЇ</a>
+                                </li>
+                                <li><a href="">ПАРТНЕРИ</a>
+                                </li>
+                                <li> <a href="">ВІДГУКИ</a>
+                                </li>
+                                <li> <a href="">КОНТАКТИ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            @@include('components/_main.html')
+        </main>
+        @@include('links/_scripts.html')
+    </div>
 </body>
 
 </html>
