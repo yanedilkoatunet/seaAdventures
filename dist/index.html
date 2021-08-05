@@ -2,56 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    @@include('links/_head.html')
     <title>SEA ADVENTURES</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <section class="bg">
-            <header>
-                <div class="container">
-                    <div class="nav">
-                        <div class="nav-wrapper" flex>
-                            <div class="logo">
-                                <a href="index.html" class="logo_link" target="blank"><img class="logo_img"
-                                        src="https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/logo.png"
-                                        alt="logo"></a>
-                            </div>
-                            <div class="menu">
-                                <ul class="menu_row" flex>
-                                    <li class="menu_row_item">
-                                        <a class="menu_row_item_link" href="index.html">ГОЛОВНА</a>
-                                    </li>
-                                    <li class="menu_row_item">
-                                        <a class="menu_row_item_link" href="about.html">ПОСЛУГИ</a>
-                                    </li>
-                                    <li class="menu_row_item">
-                                        <a class="menu_row_item_link" href="">ПРО КОМПАНІЮ</a>
-                                    </li>
-                                    <li class="menu_row_item">
-                                        <a class="menu_row_item_link" href="">АКЦІЇ</a>
-                                    </li>
-                                    <li class="menu_row_item">
-                                        <a class="menu_row_item_link" href="">ПАРТНЕРИ</a>
-                                    </li>
-                                    <li class="menu_row_item">
-                                        <a class="menu_row_item_link" href="">ВІДГУКИ</a>
-                                    </li>
-                                    <li class="menu_row_item">
-                                        <a class="menu_row_item_link" href="">КОНТАКТИ</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+        <header>
+            <div class="container">
+                
+                <div class="logo">
+                    <a href="index.html" target="blank"><img
+                            src="https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/logo.png"
+                            alt="logo"></a>
                 </div>
-            </header>
-        </section>
-        <script src="js/script.js"></script>
+                <div class="nav-wrap" flex>
+                    <nav>
+                        <div class="menu">
+                            <ul flex>
+                                <li> <a href="index.html">ГОЛОВНА</a>
+                                </li>
+                                <li> <a href="about.html">ПОСЛУГИ</a>
+                                </li>
+                                <li> <a href="">ПРО КОМПАНІЮ</a>
+                                </li>
+                                <li> <a href="">АКЦІЇ</a>
+                                </li>
+                                <li><a href="">ПАРТНЕРИ</a>
+                                </li>
+                                <li> <a href="">ВІДГУКИ</a>
+                                </li>
+                                <li> <a href="">КОНТАКТИ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        @@include('components/_main.html')
+        @@include('links/_scripts.html')
     </div>
 </body>
 
