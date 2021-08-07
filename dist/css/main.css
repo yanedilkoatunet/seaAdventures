@@ -15,8 +15,8 @@ body {
 }
 
 h1 {
-  color: white;
   font-size: 72px;
+  padding: 40px 0 20px 0;
 }
 
 ul {
@@ -88,4 +88,12 @@ ul li a {
 
 .top {
   text-align: center;
+  margin: 130px 0 0 0;
+  color: white;
+}
+
+.top-bg {
+  background-image: url(https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/square.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
 }
