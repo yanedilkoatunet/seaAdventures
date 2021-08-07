@@ -32,12 +32,6 @@ ul li a {
   text-decoration: none;
 }
 
-nav {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .bg {
   max-width: 100%;
   background-image: url("https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/bg.jpg");
