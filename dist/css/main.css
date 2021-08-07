@@ -85,3 +85,7 @@ ul li a {
 .menu-row-link:hover {
   color: #FFB000;
 }
+
+.top {
+  text-align: center;
+}
