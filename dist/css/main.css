@@ -14,10 +14,9 @@ body {
   font-family: Rubik-Regular sans-serif;
 }
 
-.wrapper {
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
+h1 {
+  color: white;
+  font-size: 72px;
 }
 
 ul {
@@ -32,6 +31,12 @@ ul li a {
   text-decoration: none;
 }
 
+.wrapper {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .bg {
   max-width: 100%;
   background-image: url("https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/bg.jpg");
@@ -43,14 +48,14 @@ ul li a {
   padding: 20px 200px 20px 200px;
 }
 
-.menu-wrap {
+.menu-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .logo {
-  padding: 0 360px 0 0;
+  padding: 0 380px 0 0;
 }
 
 .logo .logo_img {
@@ -64,15 +69,19 @@ ul li a {
   display: flex;
 }
 
-.menu {
-  padding: 13px 0  0 40px;
-}
-
-.menu_row {
+.menu-row {
   font-size: 14px;
+  padding: 10px 0 0 0;
 }
 
-.menu_row_item_link {
-  margin: 0 10px 0 10px;
+.menu-row-item {
+  margin: 0 20px 0 20px;
+}
+
+.menu-row-link {
   color: white;
+}
+
+.menu-row-link:hover {
+  color: #FFB000;
 }
