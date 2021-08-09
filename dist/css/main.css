@@ -19,10 +19,24 @@ h1 {
   padding: 40px 0 20px 0;
 }
 
+h2 {
+  color: #009AFF;
+}
+
+h3 {
+  color: #2F2F2F;
+}
+
 h4 {
   font-size: 36px;
   line-height: 50px;
   margin: 10px 0 20px 0;
+}
+
+h5 {
+  color: #BEBEBF;
+  text-align: left;
+  padding: 20px 0 0 0;
 }
 
 ul {
@@ -45,6 +59,7 @@ button {
   border-radius: 200px;
   border: 2px solid #FFB800;
   cursor: pointer;
+  margin: 20px 0 0 0;
 }
 
 .wrapper {
@@ -130,4 +145,19 @@ button {
 
 .bgcolor {
   background-color: #F4F8FB;
+}
+
+.tripbox {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tripbox-about {
+  max-width: 270px;
+  text-align: left;
 }
