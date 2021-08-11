@@ -1,8 +1,5 @@
 node_modules
-/dist
-/psd
-package-lock.json
+dist
+psd
 .DS_Store
 /.history
-/wp-content
-.idea/
