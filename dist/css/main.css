@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Rubik-Regular';
-  src: url("fonts/Rubik-regular.ttf") format("truetype"),url("/fonts/Rubik-Regular.woff") format("woff"),url("/fonts/Rubik-Regular.eot") format("eot");
-  font-weight: 900;
+  src: url("fonts/Rubik-Regular.ttf") format("truetype"),url("/fonts/Rubik-Regular.woff") format("woff"),url("/fonts/Rubik-Regular.eot") format("eot");
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -12,6 +12,16 @@
 
 body {
   font-family: 'Rubik-Regular', sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
 }
 
 h1 {
@@ -159,4 +169,14 @@ button {
 .tripbox-about {
   max-width: 270px;
   text-align: left;
+}
+
+.tour {
+  position: relative;
+}
+
+.tour img:first-child {
+  position: absolute;
+  left: 0;
+  top: 0;
 }

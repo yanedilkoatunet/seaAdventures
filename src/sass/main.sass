@@ -1,8 +1,15 @@
 @font-face 
 	font-family: 'Rubik-Regular' 
-	src: url('fonts/Rubik-regular.ttf') format('truetype'),url('/fonts/Rubik-Regular.woff') format('woff'),url('/fonts/Rubik-Regular.eot') format('eot') 
-	font-weight: 900
+	src: url('fonts/Rubik-Regular.ttf') format('truetype'),url('/fonts/Rubik-Regular.woff') format('woff'),url('/fonts/Rubik-Regular.eot') format('eot') 
+	font-weight: 400
 	font-style: normal 
+	
+@font-face 
+	font-family: 'Rubik-Italic' 
+	src: url('fonts/Rubik-Italic.ttf') format('truetype'),url('/fonts/Rubik-Italic.woff') format('woff'),url('/fonts/Rubik-Italic.eot') format('eot') )
+	font-weight: 400
+	font-style: normal
+
 
 // BASE STYLES//
 *
@@ -11,9 +18,18 @@
 
 body
 	font-family: 'Rubik-Regular', sans-serif
+	font-weight: 400
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+	font-weight: 400
 h1 
 	font-size: 72px
 	padding: 40px 0 20px 0 
+	
 h2
 	color:#009AFF
 h3
@@ -119,3 +135,9 @@ button
 .tripbox-about
 	max-width: 270px
 	text-align: left
+.tour
+	position: relative
+	img:first-child
+		position: absolute
+		left: 0
+		top: 0
