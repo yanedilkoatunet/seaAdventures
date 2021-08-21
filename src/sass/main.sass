@@ -3,12 +3,12 @@
 	src: url('fonts/Rubik-Regular.ttf') format('truetype'),url('/fonts/Rubik-Regular.woff') format('woff'),url('/fonts/Rubik-Regular.eot') format('eot') 
 	font-weight: 400
 	font-style: normal 
-	
-@font-face 
+
+@font-face
 	font-family: 'Rubik-Italic' 
-	src: url('fonts/Rubik-Italic.ttf') format('truetype'),url('/fonts/Rubik-Italic.woff') format('woff'),url('/fonts/Rubik-Italic.eot') format('eot') )
+	src: url('/fonts/Rubik-Italic.ttf') format('truetype'),url('/fonts/Rubik-Italic.woff') format('woff'),url('/fonts/Rubik-Italic.eot') format('eot') 
 	font-weight: 400
-	font-style: normal
+	font-style: italic
 
 
 // BASE STYLES//
@@ -42,6 +42,11 @@ h5
 	color:#BEBEBF
 	text-align: left
 	padding: 20px 0 0 0 
+h6
+	margin: 20px 0 0 900px
+	font-size: 12px
+	color: #009AFF
+
 ul 
 	
 	list-style-type: none
@@ -65,7 +70,13 @@ button
     margin-left: auto
     margin-right: auto
 
-
+.line
+	width: 1500px
+	border-bottom: 1px solid #EFEFEF
+	margin: 50px 0 40px 0
+    
+p
+	font-style: 'Rubik-Italic'
 // HEADER STYLES//
 
 .bg
@@ -135,9 +146,22 @@ button
 .tripbox-about
 	max-width: 270px
 	text-align: left
+.tripbox-bike
+	width: 257px
+
 .tour
+	width: 257px
 	position: relative
 	img:first-child
 		position: absolute
 		left: 0
-		top: 0
+		top: 0	
+
+h6
+	img
+		width: 10px
+		height: 10px
+.islandbox
+	display: flex
+
+		
