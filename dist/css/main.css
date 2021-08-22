@@ -111,11 +111,12 @@ p {
   max-width: 100%;
   background-image: url("https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/bg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
   max-width: 1500px;
-  padding: 20px 200px 20px 200px;
+  padding: 20px 200px 20px 250px;
 }
 
 .nav-wrapper {
@@ -263,8 +264,11 @@ h6 img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 50px 0 40px 0;
+  margin: 90px 0 40px 0;
   color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .titlebox h4 {
@@ -273,4 +277,20 @@ h6 img {
 
 .titlebox h4:last-child {
   color: #0099ff;
+}
+
+.extremebox span {
+  display: block;
+  margin: 20px 0 20px 0;
+}
+
+.middle-bg {
+  background-image: url(https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/shape7.png);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.middle-bg img {
+  right: 50%;
+  position: absolute;
 }
