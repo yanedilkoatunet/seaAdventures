@@ -267,6 +267,10 @@ h6 img {
   color: white;
 }
 
-.titlebox:first-chid {
-  color: white;
+.titlebox h4 {
+  font-size: 56px;
+}
+
+.titlebox h4:last-child {
+  color: #0099ff;
 }
