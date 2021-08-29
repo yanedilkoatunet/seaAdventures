@@ -301,6 +301,7 @@ h6 img {
 }
 
 .offerbox {
+  margin: 20px 0 90px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
