@@ -320,3 +320,9 @@ h6 img {
   color: #febb11;
   font-size: 13px;
 }
+
+.offer span img,
+.bikeoffer span img {
+  width: 10px;
+  height: 10px;
+}
