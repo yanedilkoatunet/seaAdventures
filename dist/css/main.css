@@ -442,3 +442,11 @@ h6 img {
   padding: 0;
   text-align: center;
 }
+
+.palms {
+  width: 100%;
+  height: 283px;
+  background-image: url("https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/palms.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
