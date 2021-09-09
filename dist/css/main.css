@@ -115,6 +115,10 @@ p {
   font-style: 'Rubik-Italic';
 }
 
+a {
+  text-decoration: none;
+}
+
 .bg {
   max-width: 100%;
   background-image: url("https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/bg.jpg");
@@ -405,5 +409,36 @@ h6 img {
 }
 
 .bottombg {
-  background-image: url();
+  background-image: url(https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/square2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 270px;
+  height: 270px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.advisertext {
+  z-index: 2;
+  left: 20%;
+  top: -4%;
+  position: absolute;
+}
+
+.advisertext a {
+  color: #55aefe;
+  font-weight: bold;
+}
+
+.adviserbox {
+  position: absolute;
+  z-index: 2;
+  left: 30%;
+  bottom: -20%;
+}
+
+.adviserbox h5 {
+  padding: 0;
+  text-align: center;
 }
