@@ -391,6 +391,13 @@ h6 img {
   background-size: cover;
   width: 270px;
   height: 270px;
+  color: white;
+}
+
+.hotelbox span,
+.foodbox span {
+  display: inline-block;
+  margin: 0 0 0 10px;
 }
 
 .foodbox {
