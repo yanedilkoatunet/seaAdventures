@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'Rubik-Regular';
+  font-family: 'Rubik';
   src: url("fonts/Rubik-Regular.ttf") format("truetype"),url("/fonts/Rubik-Regular.woff") format("woff"),url("/fonts/Rubik-Regular.eot") format("eot");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Rubik-Italic';
+  font-family: 'Rubik';
   src: url("/fonts/Rubik-Italic.ttf") format("truetype"),url("/fonts/Rubik-Italic.woff") format("woff"),url("/fonts/Rubik-Italic.eot") format("eot");
   font-weight: 400;
   font-style: italic;
@@ -18,7 +18,7 @@
 }
 
 body {
-  font-family: 'Rubik-Regular', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
 }
 
@@ -112,7 +112,7 @@ button {
 }
 
 p {
-  font-style: 'Rubik-Italic';
+  font-style: italic;
 }
 
 a {
@@ -213,33 +213,33 @@ a {
   text-align: left;
 }
 
-.tripbox-bike {
-  width: 257px;
-}
-
 .offertext {
   padding: 20px 20px 20px 20px;
 }
 
 .islandtour {
   max-height: 260px;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0px 5px 9px 2px rgba(193,204,216,0.88);
-          box-shadow: 0px 5px 9px 2px rgba(193,204,216,0.88);
 }
 
 .islandtour h5 {
   padding: 20px 20px 0 20px;
 }
 
-.islandtour,
 .tour {
+  padding: 20px 0 20px 0;
   width: 257px;
   position: relative;
 }
 
-.islandtour img:first-child,
-.tour img:first-child {
+.tour:hover {
+  -webkit-box-shadow: 0px 4px 10.5px rgba(3,20,31,0.05);
+          box-shadow: 0px 4px 10.5px rgba(3,20,31,0.05);
+  background-color: #ffffff;
+}
+
+.greenshape {
+  background-image: url(https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/shape2.png);
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -313,26 +313,60 @@ h6 img {
   margin: 20px 0 20px 0;
 }
 
-.middlebg {
-  background-image: url(https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/shape7.png);
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 569px;
+.middlesection {
   position: relative;
   z-index: 1;
-  text-align: center;
+  padding: 32px 50px 100px 50px;
+}
+
+.middlesection::before,
+.middlesection::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 30%;
+  border: 3px solid #5e6b72;
+  z-index: 2;
+}
+
+.middlesection::before {
+  left: 0;
+  border-right: none;
+}
+
+.middlesection::after {
+  right: 0;
+  border-left: none;
+}
+
+.orangeimg {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .clientbox {
+  margin-top: 20px;
   position: absolute;
   z-index: 2;
-  left: 40%;
-  bottom: -1%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .clientbox h5 {
   padding: 0;
   text-align: center;
+}
+
+.clienttext {
+  width: 160px;
 }
 
 .offertitle {
@@ -348,6 +382,11 @@ h6 img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.offer,
+.bikeoffer {
+  margin: 0 20px 0 20px;
 }
 
 .offer h5,
@@ -373,10 +412,11 @@ h6 img {
   height: 10px;
 }
 
-.bikeoffer {
+.offer:hover,
+.bikeoffer:hover {
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 5px 9px 2px rgba(193,204,216,0.88);
-          box-shadow: 0px 5px 9px 2px rgba(193,204,216,0.88);
+  -webkit-box-shadow: 0px 4px 10.5px rgba(3,20,31,0.05);
+          box-shadow: 0px 4px 10.5px rgba(3,20,31,0.05);
 }
 
 .infowrap {
