@@ -237,10 +237,12 @@ a {
   background-color: #ffffff;
 }
 
-.greenshape {
+.greenshape::before {
   background-image: url(https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/shape2.png);
   content: '';
   position: absolute;
+  width: 60px;
+  height: 60px;
   left: 0;
   top: 0;
 }
