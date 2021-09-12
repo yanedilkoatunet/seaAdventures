@@ -28,7 +28,7 @@ h6
 	font-weight: 400
 h1 
 	font-size: 72px
-	padding: 40px 0 20px 0 
+	margin: 40px 0 20px 0
 	
 h2
 	color:#009AFF
@@ -99,7 +99,7 @@ a
 
 .bg
 	max-width: 100%
-	background-image: url('/img/bg.jpg')
+	background-image: url('/img/bg.png')
 	background-size: cover
 	background-repeat: no-repeat
 
@@ -139,15 +139,29 @@ a
 	color: white
 
 	
-.top-bg
-	background-image: url(https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/square.png)
-	background-repeat: no-repeat
-	background-position-x: 50%
+.topbg
+	position: relative
+	z-index: 1
+	padding: 50px 40px 20px 40px
+	&::before, 
+	&::after
+		content: ''
+		position: absolute
+		top: 0
+		left: 35%
+		height: 25%
+		width: 30%
+		opacity: 0.5
+		border: 3px solid white
+		z-index: 2
+	&::before
+		top: 90%
+		border-top: none
+	&::after
+		right: 0
+		border-bottom: none
 	
-.itext 
-	display: block
-	margin: 0 0 40px 0
-	
+
 .middle
 	margin: 320px 0 0 0 
 	text-align: center
@@ -166,12 +180,8 @@ a
 .tripbox-about
 	max-width: 270px
 	text-align: left
-	
-.offertext
-	padding: 20px 20px 20px 20px
 
 .islandtour
-	max-height: 260px 
 	h5
 		padding: 20px 20px 0 20px
 
@@ -185,7 +195,7 @@ a
 
 
 .greenshape::before
-	background-image: url(https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/shape2.png)
+	background-image: url(/img/shape2.png)
 	content: ''
 	position: absolute
 	width: 60px
@@ -322,28 +332,38 @@ h6
 	background-repeat: no-repeat
 	background-size: cover
 	width: 270px
-	height: 270px
 	color: white
+	padding: 20px 20px 30px 20px
 	span
 		display: inline-block
 		margin: 0 0 0 10px
 
-
 .foodbox
 	background-image: url(/img/foodinfo.jpg)
 
-.bottombg
-	background-image: url(/img/square2.png)
-	background-repeat: no-repeat
-	background-size: cover
-	width: 270px
-	height: 270px
+.adviser
 	position: relative
 	z-index: 1
-	text-align: center
+	padding: 32px 100px 100px 150px
+	&::before, 
+	&::after
+		content: ''
+		position: absolute
+		top: 0
+		height: 100%
+		width: 15%
+		border: 3px solid #ffb700
+		z-index: 2
+	&::before
+		left: 0
+		border-right: none
+	&::after
+		right: 0
+		border-left: none
+	
 
 .advisertext
-	z-index: 2
+	z-index: 3
 	left: 20%
 	top: -4%
 	position: absolute
@@ -354,12 +374,12 @@ h6
 
 .adviserbox
 	position: absolute
-	z-index: 2
-	left: 30%
+	z-index: 
+	left: 28%
 	bottom: -20%
 	h5
 		padding: 0
-		text-align: center
+	
 	
 .palms
 	width: 100%
