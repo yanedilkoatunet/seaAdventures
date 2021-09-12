@@ -401,39 +401,37 @@ h6 img {
           justify-content: space-between;
 }
 
-.offer,
-.bikeoffer {
+.offer {
   margin: 0 20px 0 20px;
 }
 
-.offer h5,
-.bikeoffer h5 {
+.offer h5 {
   padding: 20px 0 20px 0;
 }
 
-.offer h2,
-.bikeoffer h2 {
+.offer h2 {
   display: inline;
   padding: 0 10px 0 0;
 }
 
-.offer span,
-.bikeoffer span {
+.offer span {
   color: #febb11;
   font-size: 13px;
 }
 
-.offer span img,
-.bikeoffer span img {
+.offer span img {
   width: 10px;
   height: 10px;
 }
 
-.offer:hover,
-.bikeoffer:hover {
+.offer:hover {
   background-color: #ffffff;
   -webkit-box-shadow: 0px 4px 10.5px rgba(3,20,31,0.05);
           box-shadow: 0px 4px 10.5px rgba(3,20,31,0.05);
+}
+
+.offertext {
+  padding: 10px 10px 10px 10px;
 }
 
 .infowrap {
@@ -445,17 +443,18 @@ h6 img {
           justify-content: space-between;
 }
 
-.hotelbox,
+.infobox,
 .foodbox {
   background-image: url(/img/workschedule.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 270px;
   color: white;
+  margin: 0 10px 0 10px;
   padding: 20px 20px 30px 20px;
 }
 
-.hotelbox span,
+.infobox span,
 .foodbox span {
   display: inline-block;
   margin: 0 0 0 10px;
@@ -469,6 +468,7 @@ h6 img {
   position: relative;
   z-index: 1;
   padding: 32px 100px 100px 150px;
+  margin: 0 10px 0 10px;
 }
 
 .adviser::before,
@@ -520,4 +520,14 @@ h6 img {
   background-image: url("/img/palms.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  padding: 10px 0 10px 0;
+}
+
+footer span {
+  color: white;
 }
