@@ -85,6 +85,11 @@ button {
   margin: 20px 0 0 0;
 }
 
+button:hover {
+  -webkit-box-shadow: 0px 4px 10.5px rgba(3,20,31,0.05);
+          box-shadow: 0px 4px 10.5px rgba(3,20,31,0.05);
+}
+
 .bluebutton {
   background-color: white;
   border: 2px solid #0099ff;
@@ -121,7 +126,7 @@ a {
 
 .bg {
   max-width: 100%;
-  background-image: url("https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/bg.jpg");
+  background-image: url("/img/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -286,7 +291,7 @@ h6 img {
 }
 
 .bgimg {
-  background-image: url(https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/wavebg.jpg);
+  background-image: url(/img/wavebg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -432,7 +437,7 @@ h6 img {
 
 .hotelbox,
 .foodbox {
-  background-image: url(https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/workschedule.jpg);
+  background-image: url(/img/workschedule.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 270px;
@@ -447,11 +452,11 @@ h6 img {
 }
 
 .foodbox {
-  background-image: url(https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/foodinfo.jpg);
+  background-image: url(/img/foodinfo.jpg);
 }
 
 .bottombg {
-  background-image: url(https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/square2.png);
+  background-image: url(/img/square2.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 270px;
@@ -488,7 +493,7 @@ h6 img {
 .palms {
   width: 100%;
   height: 283px;
-  background-image: url("https://raw.githubusercontent.com/yanedilkoatunet/seaAdventures/master/src/img/palms.jpg");
+  background-image: url("/img/palms.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
